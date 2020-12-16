@@ -1,0 +1,15 @@
+{
+  "name": "simple-serve",
+  "version": "1.0.0",
+  "description": "",
+  "main": "simple-serve.js",
+  "scripts": {
+    "start": "node simple-serve.js",
+    "dev": "nodemon simple-serve.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}

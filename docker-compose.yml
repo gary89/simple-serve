@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  simple-serve:
+    build:
+      context: .
+      network: host
+    container_name: "simple-serve"
+    ports:
+      - "9001:9001"
+    restart: unless-stopped
+    volumes:
+    - /:/data:ro
